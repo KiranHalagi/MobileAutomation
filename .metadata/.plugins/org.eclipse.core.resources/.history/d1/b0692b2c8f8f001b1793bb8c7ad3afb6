@@ -1,0 +1,30 @@
+package embibeApp;
+
+
+import java.net.MalformedURLException;
+
+import org.openqa.selenium.By;
+import org.testng.Assert;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+
+public class EmbibeAllTestCases  extends LoginFunctionality  {
+	
+	public static void main(String[] args) throws MalformedURLException {
+		
+		AndroidDriver<AndroidElement>driver=Capabilities();
+		
+		//Check weather "Trusted By @
+		//" Text is present or not"
+		
+		String ActualText="TRUSTED BY 200+ MILLION STUDENTS";
+		String trustedText=driver.findElement(By.xpath("//android.widget.TextView[@text='TRUSTED BY 200+ MILLION STUDENTS']")).getText();
+		Assert.assertEquals(ActualText, trustedText);
+		
+		
+		
+		
+	}
+
+}

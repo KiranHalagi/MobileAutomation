@@ -1,0 +1,137 @@
+2021-02-20 11:39:13 INFO  SG:768 - The data 'kiran' was entered in the element '//android.widget.EditText[@text='Enter name here']' successful
+2021-02-20 11:39:13 INFO  SG:768 - The element //android.widget.RadioButton[@text='Female'] was Clicked successfully
+2021-02-20 11:39:14 INFO  SG:768 - The element com.androidsample.generalstore:id/btnLetsShop was Clicked successfully
+2021-02-20 11:39:14 INFO  SG:768 - Login is successfuly for 'General-Stroe.apk' Application
+2021-02-20 11:39:14 INFO  SG:768 - Test script 'TS_LoginLogout()' Passed
+2021-02-20 11:39:14 INFO  SG:768 - The test script 'TS_LoginLogout()' passed
+2021-02-20 15:00:53 ERROR SG:777 - The test script 'TS_LoginLogout()' failed
+2021-02-20 15:02:34 INFO  SG:773 - The test script 'TS_LoginLogout()' passed
+2021-02-20 15:17:51 ERROR runtime:60 - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> report.systemInfoMap[info]  [in template "Extent.ftl" at line 193, column 95]
+
+----
+Tip: It's the final [] step that caused this error, not those before it.
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${report.systemInfoMap[info]}  [in template "Extent.ftl" at line 193, column 93]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)
+	at freemarker.core.EvalUtil.coerceModelToString(EvalUtil.java:355)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:41)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visitByHiddingParent(Environment.java:345)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedBlockInner(IteratorBlock.java:240)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedBlock(IteratorBlock.java:220)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:194)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:572)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:78)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:64)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.relevantcodes.extentreports.HTMLReporter.flush(HTMLReporter.java:173)
+	at com.relevantcodes.extentreports.Report.flush(Report.java:468)
+	at com.relevantcodes.extentreports.ExtentReports.flush(ExtentReports.java:900)
+	at reports.ReportUtils.endExtentReport(ReportUtils.java:86)
+	at testScripts.TestScript.TS_LoginLogout(TestScript.java:38)
+	at driver.DriverScript.main(DriverScript.java:35)
+2021-02-20 15:21:22 ERROR runtime:60 - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> report.systemInfoMap[info]  [in template "Extent.ftl" at line 193, column 95]
+
+----
+Tip: It's the final [] step that caused this error, not those before it.
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${report.systemInfoMap[info]}  [in template "Extent.ftl" at line 193, column 93]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)
+	at freemarker.core.EvalUtil.coerceModelToString(EvalUtil.java:355)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:41)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visitByHiddingParent(Environment.java:345)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedBlockInner(IteratorBlock.java:240)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedBlock(IteratorBlock.java:220)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:194)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:572)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:78)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:64)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.relevantcodes.extentreports.HTMLReporter.flush(HTMLReporter.java:173)
+	at com.relevantcodes.extentreports.Report.flush(Report.java:468)
+	at com.relevantcodes.extentreports.ExtentReports.flush(ExtentReports.java:900)
+	at reports.ReportUtils.endExtentReport(ReportUtils.java:84)
+	at testScripts.TestScript.TS_LoginLogout(TestScript.java:38)
+	at driver.DriverScript.main(DriverScript.java:35)
+2021-02-20 15:52:10 ERROR runtime:60 - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> report.systemInfoMap[info]  [in template "Extent.ftl" at line 193, column 95]
+
+----
+Tip: It's the final [] step that caused this error, not those before it.
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${report.systemInfoMap[info]}  [in template "Extent.ftl" at line 193, column 93]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)
+	at freemarker.core.EvalUtil.coerceModelToString(EvalUtil.java:355)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:41)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visitByHiddingParent(Environment.java:345)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedBlockInner(IteratorBlock.java:240)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedBlock(IteratorBlock.java:220)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:194)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:572)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:78)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:64)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+	at freemarker.core.Environment.visit(Environment.java:324)
+	at freemarker.core.Environment.process(Environment.java:302)
+	at freemarker.template.Template.process(Template.java:325)
+	at com.relevantcodes.extentreports.HTMLReporter.flush(HTMLReporter.java:173)
+	at com.relevantcodes.extentreports.Report.flush(Report.java:468)
+	at com.relevantcodes.extentreports.ExtentReports.flush(ExtentReports.java:900)
+	at reports.ReportUtils.endExtentReport(ReportUtils.java:84)
+	at testScripts.TestScript.TS_LoginLogout(TestScript.java:36)
+	at driver.DriverScript.main(DriverScript.java:42)

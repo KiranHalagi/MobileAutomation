@@ -1,0 +1,20 @@
+Feature: Tagging Concept
+
+Scenario: Login
+Given Login to actitime
+
+Scenario: Logout
+Given Logout  from actitime
+
+Scenario: CreateUser
+Given User created Successfully
+
+Scenario: ModifyUser
+Given User Modified Successfully
+
+Scenario: TaskModule
+Given Task Completed Successfully
+
+Scenario: TvModule
+Given Tv Module Craeted successfully
+
